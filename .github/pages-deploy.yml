@@ -1,0 +1,71 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@gominnam 
+juho0719
+/
+juho0719.github.io
+Public
+generated from cotes2020/chirpy-starter
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+juho0719.github.io/.github/workflows/pages-deploy.yml
+@juho0719
+juho0719 Initial commit
+Latest commit 57c2f22 yesterday
+ History
+ 1 contributor
+29 lines (24 sloc)  510 Bytes
+   
+name: 'Automatic build'
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - .gitignore
+      - README.md
+      - LICENSE
+
+jobs:
+  continuous-delivery:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # for posts's lastmod
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true
+
+      - name: Deploy
+        run: bash tools/deploy.sh
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
