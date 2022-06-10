@@ -18,9 +18,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: MINJUN's NOTE                          # the main title
+title: minjun's blog                          # the main title
 
-tagline: effcient recording   # it will display as the sub-title
+tagline: devlog  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   blogging page
@@ -32,13 +32,13 @@ github:
   username: gominnam             # change to your github username
 
 #twitter:
-#  username: juho0719            # change to your twitter username
+#  username: gominnam            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: MIN-JUN KO
-  email: kosok@naver.com             # change to your email address
+  email: kosok03@naver.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     #- https://twitter.com/username      # change to your twitter homepage
