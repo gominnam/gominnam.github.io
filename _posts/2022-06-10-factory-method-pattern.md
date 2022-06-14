@@ -1,13 +1,13 @@
 ---
-title: Factory Method Pattern
+title: 디자인패턴 - Factory Method Pattern
 date: 2022-06-10 16:26:00 +09:00
 categories: [Design Pattern, Creational]
 tags: [design pattern, factory method]
 ---
 
-팩토리 매소드 패턴이란 생성될 객체의 정확한 클래스를 지정하지 않으면서 객체 생성 문제를 처리하기 위해 사용하는 패턴이다.<br>
-`생성자를 호출하는 대신에 인터페이스로 지정하고 자식 클래스 또는 기본 클래스에 구현`함으로 선택적으로 파생 클래스에 의해 재정의 되는 팩토리 매소드를 호출하여 개체를 생성하고 수행한다.<br>
-하
+팩토리 매소드 패턴이란 생성될 객체의 정확한 클래스를 지정하지 않고 인스턴스를 생성하기 위해 사용하는 패턴이다.<br>
+`생성자를 호출하는 대신 인터페이스로 지정하고 자식 클래스 또는 기본 클래스에 구현`하여 재정의된 매소드를 호출하여 선택적으로 객체를 생성할 수 있다.<br>
+
 ## UML 클래스 다이어그램
 
 ![factory uml](/assets/img/posts/2022-06-10-factory-method-1.png){: width="600" height="300"}<br>
