@@ -133,7 +133,7 @@ public class Factory {
 }
 ```
 
-## Factory 실행 결과
+## 실행 결과
 
 ![result](/assets/img/posts/2022-06-10-factory-method-2.png){: align="left" width="400" height="200"}{: .left}<br><br><br><br><br>
 
