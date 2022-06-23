@@ -10,11 +10,13 @@ tags: [design pattern, bridge]
 ![bridge uml](/assets/img/posts/2022-06-21-bridge-1.png){: width="500" height="250"}<br>
 이미지출처 - <https://refactoring.guru/design-patterns/bridge><br><br>
 
-<ol>
+### 적용 시 고려사항
+
+<ul>
     <li>두 클래스가 동일하거나 유사한 작업을 수행하지만 인터페이스가 다른경우</li>
     <li>두 클래스가 공통 인터페이스를 가지면, 클라이언트 코드가 더 간단하고 명료해질 수 있는 경우</li>
     <li>외부 라이브러리라서 인터페이스를 바꾸고 싶어도 쉽게 바꿀 수 없는 경우, 또는 소스코드를 갖고 있지 않는 경우</li>
-</ol>
+</ul>
 <br>
 
 ## UML 클래스 다이어그램
