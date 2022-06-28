@@ -7,7 +7,7 @@ tags: [design pattern, bridge]
 
 브릿지(Bridge)패턴은 `구현부에서 추상층을 분리하여 각자 독립적으로 변형`하여 밀접하게 관련된 클래스 집합을 서로 독립적으로 개발할 수 있게 하는 구조 패턴이다.
 
-![bridge uml](/assets/img/posts/2022-06-21-bridge-1.png){: width="500" height="250"}<br>
+![bridge uml](/assets/img/posts/design-pattern/2022-06-21-bridge-1.png){: width="500" height="250"}<br>
 이미지출처 - <https://refactoring.guru/design-patterns/bridge><br><br>
 
 ### 적용 시 고려사항
@@ -21,7 +21,7 @@ tags: [design pattern, bridge]
 
 ## UML 클래스 다이어그램
 
-![bridge uml](/assets/img/posts/2022-06-21-bridge-2.png){: width="600" height="300"}<br>
+![bridge uml](/assets/img/posts/design-pattern/2022-06-21-bridge-2.png){: width="600" height="300"}<br>
 이미지출처 - <https://refactoring.guru/design-patterns/bridge><br><br>
 
 # 상점에 패턴을 적용해 구현해봤습니다.
@@ -125,7 +125,7 @@ public class Client {
 
 ## 실행 결과
 
-![result](/assets/img/posts/2022-06-21-bridge-3.png){: align="left" width="400" height="200"}{: .left}<br><br><br><br><br><br><br>
+![result](/assets/img/posts/design-pattern/2022-06-21-bridge-3.png){: align="left" width="400" height="200"}{: .left}<br><br><br><br><br><br><br>
 
 ## 장점
 <ol>

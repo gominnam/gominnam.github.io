@@ -19,7 +19,7 @@ tags: [design pattern, adapter]
 
 ## UML 클래스 다이어그램
 
-![adapter uml](/assets/img/posts/2022-06-19-adapter-1.png){: width="600" height="300"}<br>
+![adapter uml](/assets/img/posts/design-pattern/2022-06-19-adapter-1.png){: width="600" height="300"}<br>
 이미지출처 - <https://refactoring.guru/design-patterns/adapter><br><br>
 
 # 변압기를 주제로 어댑터 패턴을 적용해 소스를 구현해봤습니다.
@@ -102,7 +102,7 @@ public class Client {
 
 ## 실행 결과
 
-![result](/assets/img/posts/2022-06-19-adapter-2.png){: align="left" width="400" height="200"}{: .left}<br><br><br><br><br><br><br>
+![result](/assets/img/posts/design-pattern/2022-06-19-adapter-2.png){: align="left" width="400" height="200"}{: .left}<br><br><br><br><br><br><br>
 
 ## 장점
 <ol>

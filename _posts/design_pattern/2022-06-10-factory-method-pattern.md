@@ -19,7 +19,7 @@ tags: [design pattern, factory method]
 
 ## UML 클래스 다이어그램
 
-![factory uml](/assets/img/posts/2022-06-10-factory-method-1.png){: width="600" height="300"}<br>
+![factory uml](/assets/img/posts/design-pattern/2022-06-10-factory-method-1.png){: width="600" height="300"}<br>
 
 <ol>
     <li>Creator : 팩토리 매서드를 구현하는 클래스</li>
@@ -145,7 +145,7 @@ public class Factory {
 
 ## 실행 결과
 
-![result](/assets/img/posts/2022-06-10-factory-method-2.png){: align="left" width="400" height="200"}{: .left}<br><br><br><br><br>
+![result](/assets/img/posts/design-pattern/2022-06-10-factory-method-2.png){: align="left" width="400" height="200"}{: .left}<br><br><br><br><br>
 
 ## 장점
 <ol>
