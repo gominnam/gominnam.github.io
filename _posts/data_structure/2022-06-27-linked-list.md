@@ -43,11 +43,10 @@ tags: [data structure, linked list]
 ![linkedlist](/assets/img/posts/data-structure/2022-06-28-linked-list-4.png){: width="400" height="200"}<br><br>
 
 - 이중 연결 리스트(doubly linked list)는 각 노드마다 2개의 링크가 존재한다.<br><br>
-![linkedlist](/assets/img/posts/data-structure/2022-06-28-linked-list-5.png){: width="400" height="200"}<br><br>
+![linkedlist](/assets/img/posts/data-structure/2022-06-28-linked-list-5.png){: width="400" height="200"}<br><br><br>
+
 
 ## Source Code
-
-단순연결리스트 구현 소스코드이다.
 
 ```java
 public class LinkedList{
@@ -122,7 +121,12 @@ public class LinkedList{
 		}
 	}
 }
+
+//원형연결리스트의 경우 마지막 노드의 링크가 첫번째 노드를 가르키는 소스를 추가하면 된다.
+//이중연결리스트의 경우 각 노드마다 링크 2개를 선언하여(prev, next) 서로를 가르키는 소스를 추가하면 된다.
 ```
+
+
 
 ## 참고자료
 
