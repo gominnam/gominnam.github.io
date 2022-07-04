@@ -1,7 +1,7 @@
 ---
 title: 자료구조 - Linked List
 date: 2022-06-28 01:26:00 +09:00
-categories: [Study, Linked List]
+categories: [Study, Data Structure]
 tags: [data structure, linked list]
 ---
 
