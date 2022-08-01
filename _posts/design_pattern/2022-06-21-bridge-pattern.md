@@ -138,7 +138,6 @@ public class Client {
 ## 단점
 <ol>
     <li>디자인이 복잡하다.</li>
-    
 </ol>
 
 
